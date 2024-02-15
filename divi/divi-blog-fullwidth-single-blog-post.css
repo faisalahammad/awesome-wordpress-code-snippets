@@ -1,0 +1,6 @@
+/**
+* Set the width of the rows inside the Post Content module
+*/
+.et-db #et-boc .et-l .et-l--post .et_builder_inner_content .et_pb_row {
+  width: 100%;
+}
