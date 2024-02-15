@@ -1,0 +1,6 @@
+@media (min-width: 981px) {
+  .custom_slider_class .et_pb_slide_image,
+  .custom_slider_class .et_pb_slide_image img {
+    height: 100% !important;
+  }
+}
