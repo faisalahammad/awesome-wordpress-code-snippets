@@ -1,0 +1,11 @@
+/**
+* Add the "loggedin-users" and "not-loggedin-users" CSS classes to the specific menu items.
+*/
+
+body:not(.logged-in) li.loggedin-users {
+  display: none !important;
+}
+
+body.logged-in li.not-loggedin-users {
+  display: none !important;
+}
