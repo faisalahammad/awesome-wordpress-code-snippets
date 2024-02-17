@@ -1,0 +1,17 @@
+/**
+* Please add the "myBorder" CSS class to the Row Settings → Advanced → CSS ID & Classes → CSS Class.
+*/
+
+.myBorder .et_pb_column:nth-child(1):after {
+  border-right: 01px #000 solid;
+  display: block;
+  content: "";
+  width: 0.1px;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  z-index: 999;
+  top: 0;
+  margin: 0 auto;
+  right: -40px;
+}
