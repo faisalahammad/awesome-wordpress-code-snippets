@@ -1,0 +1,10 @@
+/**
+* Change the left padding value to match with your content
+*/
+
+.entry-content ol ul,
+.entry-content ol ol,
+.entry-content ul ul,
+.entry-content ul ol {
+  padding-left: 23px !important;
+}
