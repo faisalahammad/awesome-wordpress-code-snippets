@@ -1,0 +1,11 @@
+.et_pb_row
+  > .et_pb_column
+  > .et_pb_blog_grid_wrapper
+  .et_pb_salvattore_content[data-columns]::before {
+  content: "3 .column.size-1of3" !important;
+}
+
+.et_pb_row > .et_pb_column > .et_pb_blog_grid_wrapper .column.size-1of3 {
+  width: 32.333%;
+  margin-right: 1%;
+}
