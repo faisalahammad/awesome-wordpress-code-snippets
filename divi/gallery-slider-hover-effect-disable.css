@@ -1,0 +1,7 @@
+.gallery-module-custom {
+  pointer-events: none !important;
+}
+.gallery-module-custom .et-pb-slider-arrows,
+.gallery-module-custom .et-pb-controllers {
+  display: none !important;
+}
