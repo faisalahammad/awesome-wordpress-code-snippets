@@ -1,0 +1,4 @@
+/* Adjust the margin value to match with your website */
+#ui-datepicker-div.ui-datepicker {
+  margin-top: -275px !important;
+}
