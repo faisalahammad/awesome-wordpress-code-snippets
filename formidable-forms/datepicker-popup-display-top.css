@@ -2,3 +2,9 @@
 #ui-datepicker-div.ui-datepicker {
   margin-top: -275px !important;
 }
+
+/* Alternative code */
+#ui-datepicker-div.ui-datepicker {
+  bottom: -165px !important;
+  top: unset !important;
+}
