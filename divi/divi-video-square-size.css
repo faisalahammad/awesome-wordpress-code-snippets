@@ -1,0 +1,5 @@
+.square_video_size .et_pb_video_box video {
+  width: 240px !important;
+  height: 300px !important;
+  object-fit: cover;
+}
