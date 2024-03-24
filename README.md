@@ -1,4 +1,4 @@
-# Awesome Wordpress Code Snippets
+# Awesome WordPress Code Snippets
 
 A bulk collection of awesome codes collection to save you time and make the life easier.
 
