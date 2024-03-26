@@ -1,0 +1,11 @@
+/**
+ * This will disable the image animation
+ *
+ * @package Divi
+ */
+
+.disable_img_animation .et_pb_slide_image,
+.disable_img_animation .et_pb_slide:first-child .et_pb_slide_image img.active {
+  -webkit-animation-duration: 0s !important;
+  animation-duration: 0s !important;
+}
