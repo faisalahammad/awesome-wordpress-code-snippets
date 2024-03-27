@@ -1,0 +1,19 @@
+/**
+* By default the sidebar is added at the bottom of the page
+* Adding following CSS will push the sidebar at top of the page
+*/
+
+@media all and (max-width: 981px) {
+  body.woocommerce-shop #content-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.woocommerce-shop #content-area #left-area {
+    order: 2;
+  }
+
+  body.woocommerce-shop #content-area #sidebar {
+    order: 1;
+  }
+}
