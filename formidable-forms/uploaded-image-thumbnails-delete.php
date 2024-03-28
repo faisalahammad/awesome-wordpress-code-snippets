@@ -9,7 +9,7 @@
 function after_entry_created( $entry_id, $form_id )
 {
  $upload_dir  = wp_upload_dir();
- $upload_path = $upload_dir[ 'basedir' ] . '/formidable/';
+ $upload_path = $upload_dir[ 'basedir' ] . '/formidable/1';
 
  // Patterns to match thumbnails
  $thumbnails_pattern = $upload_path . '**/{*-*x*.*,*-scaled.*}';
