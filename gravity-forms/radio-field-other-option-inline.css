@@ -1,0 +1,16 @@
+/**
+* Display Radio Field Other Option Inline
+* Use a custom CSS class for the field to avoid applying the following CSS to all forms.
+*/
+
+.gfield_radio .gchoice:last-child {
+  display: flex !important;
+}
+
+.gfield_radio .gchoice:last-child label {
+  margin-right: 10px !important;
+}
+
+.gfield_radio .gchoice:last-child input:last-child {
+  margin-top: -10px;
+}

@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+jQuery(document).ready(function ($) {
   // replace the core-skills and secondary-skills with your own field class
   $('.core-skills input[type="checkbox"], .secondary-skills input[type="checkbox"]').change(function () {
     var selectedCoreSkills = $('.core-skills input[type="checkbox"]:checked')
