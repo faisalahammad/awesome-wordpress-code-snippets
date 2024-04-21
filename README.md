@@ -22,3 +22,5 @@ A bulk collection of awesome codes collection to save you time and make the life
 ### Contributors 🤝🏽
 
 - Moin Ahmed [@allmoinahmed](https://github.com/allmoinahmed)
+- Md Abul Bashar [@hmbashar](https://github.com/hmbashar)
+- Huzaifa Al Mesbah [@huzaifaalmesbah](https://github.com/huzaifaalmesbah)
