@@ -14,5 +14,4 @@ function bbloomer_free_shipping_cart_notice() {
       $notice = sprintf( '<a href="%s" class="button wc-forward">%s</a> %s', esc_url( $return_to ), 'Continue Shopping', $added_text );
       wc_print_notice( $notice, 'notice' );
    }
-  
 }
