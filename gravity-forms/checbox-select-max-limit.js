@@ -1,5 +1,6 @@
 /**
  * Gravity Forms - Checkbox Max Select Limit
+ * Use the "allow_max_three" CSS class to the input field.
  */
 
 jQuery(document).ready(function ($) {
