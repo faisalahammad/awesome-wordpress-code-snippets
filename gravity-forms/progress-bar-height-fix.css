@@ -1,0 +1,8 @@
+/**
+* Gravity Forms - Fix the progress bar height
+* Source: https://community.gravityforms.com/t/progress-bar-looks-off-css-resolved/16036
+*/
+
+.gform_wrapper.gravity-theme .gf_progressbar_percentage {
+  height: 100% !important;
+}
