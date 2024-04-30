@@ -1,7 +1,7 @@
 <?php
 /**
  * Gravity Forms - Show Field Label Instead of Value
- * Source: https: //community.gravityforms.com/t/how-to-show-label-instead-of-value-in-entries-for-specific-field-and-form/17345
+ * Source: https://community.gravityforms.com/t/how-to-show-label-instead-of-value-in-entries-for-specific-field-and-form/17345
  */
 
 add_filter( 'gform_entries_field_value', function ( $value, $form_id, $field_id, $entry ) {
