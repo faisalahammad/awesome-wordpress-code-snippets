@@ -1,7 +1,7 @@
 <?php
 /**
  * Image scaling threshold increase
- * Source: https: //smartwp.com/large-image-scaling-wordpress/
+ * Source: https://smartwp.com/large-image-scaling-wordpress/
  */
 
 /**
