@@ -8,7 +8,7 @@ A bulk collection of awesome codes collection to save you time and make the life
 
 - [How to add custom HTML, CSS and JavaScript Code?](https://www.youtube.com/watch?v=DrxI5up7alg)
 - [How to create WordPress sandbox website in a few seconds for free?](https://www.youtube.com/watch?v=LoxT6m0xj6s)
-- How to use custom PHP code without child theme? (upcoming...)
+- [How to use custom PHP code without child theme?](https://www.youtube.com/watch?v=W_JjZQkND7Q)
 
 ### Playlist 🔥
 
