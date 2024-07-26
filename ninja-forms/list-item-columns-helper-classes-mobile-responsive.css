@@ -1,0 +1,50 @@
+/**
+* Ninja Forms - List Item Columns Helper Classes Mobile Responsive
+* @author Faisal Ahammad
+*/
+
+/* ---------------------------------
+HELPER CLASSES
+----------------------------------*/
+.two-col-list ul,
+.three-col-list ul,
+.four-col-list ul,
+.five-col-list ul,
+.six-col-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.two-col-list li,
+.three-col-list li,
+.four-col-list li,
+.five-col-list li,
+.six-col-list li {
+  width: 100% !important;
+}
+
+/** multiple columns for tablet and desktop **/
+@media (min-width: 768px) {
+  .two-col-list li {
+    width: 50% !important;
+  }
+
+  .three-col-list li {
+    width: 33.33% !important;
+  }
+
+  .four-col-list li {
+    width: 25% !important;
+  }
+
+  .five-col-list li {
+    width: 20% !important;
+  }
+
+  .six-col-list li {
+    width: 16.66% !important;
+  }
+}
