@@ -1,0 +1,21 @@
+/**
+* Ninja Forms - Required Fields Text Push At The Bottom
+* @author Faisal Ahammad
+*/
+
+.nf-form-layout form > div {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.nf-before-form-content {
+  order: 3;
+}
+
+.nf-form-content {
+  order: 1;
+}
+
+.nf-after-form-content {
+  order: 2;
+}
