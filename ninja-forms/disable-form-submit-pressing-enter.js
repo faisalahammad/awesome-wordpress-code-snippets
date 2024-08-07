@@ -4,10 +4,12 @@
  */
 
 jQuery(document).ready(function ($) {
-  $(".nf-form-cont form").on("keypress", function (e) {
-    if (e.which === 13) {
-      e.preventDefault();
-      return false;
-    }
-  });
+  setTimeout(function () {
+    $(".nf-form-cont form").on("keypress", function (e) {
+      if (e.which === 13) {
+        e.preventDefault();
+        return false;
+      }
+    });
+  }, 2000);
 });
