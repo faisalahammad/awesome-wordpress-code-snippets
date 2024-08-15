@@ -1,0 +1,8 @@
+/**
+* Ninja Forms - Vertical Spacing Reduce From Fields
+* @author Faisal Ahammad
+*/
+
+.nf-form-content .nf-row .nf-field-container {
+  margin-bottom: 10px !important;
+}
