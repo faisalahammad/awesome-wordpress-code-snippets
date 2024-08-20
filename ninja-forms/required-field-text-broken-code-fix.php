@@ -1,7 +1,6 @@
 <?php
 /**
  * Ninja Forms - Required Field Text Broken Code Fix
- * Source: https://wordpress.org/support/topic/html-code-showing-for-the-fields-required-form-message/#post-17760749
  * @package Ninja Forms
  */
 
@@ -17,3 +16,13 @@ function fix_ninja_forms_i18n_front_end( $strings )
 
  return $strings;
 }
+
+// Alternative Code
+function decode_ninja_forms_display_form_settings($settings, $form_id)
+{
+	$settings['fieldsMarkedRequired'] = html_entity_decode($settings['fieldsMarkedRequired']);
+
+	return $settings;
+}
+
+add_filter('ninja_forms_display_form_settings', 'decode_ninja_forms_display_form_settings', 10, 2);
