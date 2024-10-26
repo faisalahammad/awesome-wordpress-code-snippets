@@ -1,11 +1,10 @@
 <?php
 /**
  * Ninja Forms - Required Field Text Broken Code Fix
- * Source: https://wordpress.org/support/topic/html-code-showing-for-the-fields-required-form-message/#post-17760749
  * @package Ninja Forms
+ *
+ * @author Faisal Ahammad
  */
-
-add_filter( 'ninja_forms_i18n_front_end', 'fix_ninja_forms_i18n_front_end' );
 
 /**
  * @param  $strings
@@ -13,7 +12,24 @@ add_filter( 'ninja_forms_i18n_front_end', 'fix_ninja_forms_i18n_front_end' );
  */
 function fix_ninja_forms_i18n_front_end( $strings )
 {
- $strings[ 'fieldsMarkedRequired' ] = 'Fields marked with an <span class="ninja-forms-req-symbol">*</span> are required';
+  $strings[ 'fieldsMarkedRequired' ] = 'Fields marked with an <span class="ninja-forms-req-symbol">*</span> are required';
 
- return $strings;
+  return $strings;
 }
+
+add_filter( 'ninja_forms_i18n_front_end', 'fix_ninja_forms_i18n_front_end' );
+
+// Alternative Code
+/**
+ * @param  $settings
+ * @param  $form_id
+ * @return mixed
+ */
+function decode_ninja_forms_display_form_settings( $settings, $form_id )
+{
+  $settings[ 'fieldsMarkedRequired' ] = html_entity_decode( $settings[ 'fieldsMarkedRequired' ] );
+
+  return $settings;
+}
+
+add_filter( 'ninja_forms_display_form_settings', 'decode_ninja_forms_display_form_settings', 10, 2 );
