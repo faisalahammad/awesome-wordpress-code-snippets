@@ -17,5 +17,8 @@ function my_ninja_forms_upload_mime_types_whitelist( $types ) {
     $types['JPG'] = 'image/jpeg';
     $types['JPEG'] = 'image/jpeg';
 
+    // Add HEIC
+    $types['HEIC'] = 'image/heic';
+
     return $types;
 }
