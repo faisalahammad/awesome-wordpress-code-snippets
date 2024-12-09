@@ -6,10 +6,10 @@
 
 jQuery(document).ready(function ($) {
   var waitForContainer = setInterval(function () {
-    if ($(".listcountry-container").length > 0) {
+    if ($(".country-list").length > 0) {
       clearInterval(waitForContainer);
 
-      var $select = $(".listcountry-container .listcountry-wrap select");
+      var $select = $(".country-list .list-wrap select");
       var $options = $select.find("option");
 
       var sortedOptions = $options.toArray().sort(function (a, b) {
