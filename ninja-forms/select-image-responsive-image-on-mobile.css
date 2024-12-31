@@ -3,34 +3,25 @@
  * @author Faisal Ahammad
  */
 
-/* Tablet styles */
-@media all and (max-width: 1024px) {
-  .listimage-container .nf-field .nf-field-element ul {
-    display: block !important;
-    padding-left: 0 !important;
-  }
-
-  .listimage-container .nf-field .nf-field-element ul li {
-    width: 33.333% !important;
-    padding-left: 10px;
-    padding-right: 10px;
-    float: left;
-    display: inline-block !important;
-  }
-}
-
 /* Mobile styles */
 @media all and (max-width: 767px) {
-  .listimage-container .nf-field .nf-field-element ul li {
-    width: 100% !important;
-  }
   .listimage-wrap li label img {
     margin-top: 10px;
   }
+
+  .listimage-container .nf-field .nf-field-element ul {
+    display: block !important;
+  }
+
+  .listimage-container .nf-field .nf-field-element ul li {
+    width: 100% !important;
+  }
+
   .listimage-container .listimage-wrap .nf-field-element ul li {
     text-align: center;
   }
+
   .listimage-container .listimage-wrap .nf-field-element ul li img {
-    margin: 10px auto 0px !important;
+    margin: 10px auto 0 !important;
   }
 }
