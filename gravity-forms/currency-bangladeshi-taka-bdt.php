@@ -2,6 +2,8 @@
 /**
  * Add Bangladeshi Taka (BDT) currency to Gravity Forms
  * @author Faisal Ahammad <me@faisalahammad.com>
+ *
+ * @link https://docs.gravityforms.com/gform_currencies/
  */
 
 add_filter( 'gform_currencies', 'add_bdt_currency' );
