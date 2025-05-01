@@ -1,0 +1,24 @@
+/**
+* Change placeholder text color in input fields of Ninja Forms
+* @author Faisal Ahammad <me@faisalahammad.com>
+*/
+
+input::placeholder {
+  color: #000;
+}
+
+input::-webkit-input-placeholder {
+  color: #000;
+}
+
+input::-moz-placeholder {
+  color: #000;
+}
+
+input:-ms-input-placeholder {
+  color: #000;
+}
+
+input:-moz-placeholder {
+  color: #000;
+}
