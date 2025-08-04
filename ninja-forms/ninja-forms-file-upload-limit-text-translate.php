@@ -1,9 +1,10 @@
+<?php
 /**
  * Customize the "Max x files are allowed" message in Ninja Forms File Uploads
  * @author Faisal Ahammad <me@faisalahammad.com>
  */
 
-<?php
+
 // Customize the "Max x files are allowed" message in Ninja Forms File Uploads
 add_filter( 'ninja_forms_uploads_js_strings', 'custom_ninja_forms_uploads_js_strings' );
 
