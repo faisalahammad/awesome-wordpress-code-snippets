@@ -112,3 +112,21 @@ html.dark-skin .gform_confirmation_wrapper,
 html.dark-skin .gform_confirmation_message {
   color: #e0e0e0 !important;
 }
+
+/* -- Consent field label -- */
+html.dark-skin .gform_wrapper .gfield_consent_label,
+html.dark-skin .gform_wrapper .gfield_consent_label a {
+  color: #e0e0e0 !important;
+}
+
+/* -- Consent field description box -- */
+html.dark-skin .gform_wrapper .gfield_consent_description {
+  color: #e0e0e0 !important;
+  border-color: #444850 !important;
+  background-color: #2a2d32 !important;
+}
+
+/* -- fieldset <legend> labels -- */
+html.dark-skin .gform_wrapper legend.gfield_label {
+  color: #e0e0e0 !important;
+}
