@@ -1,0 +1,114 @@
+/* ============================================================
+   Dark Mode Fix — Gravity Forms
+   @author: Faisal Ahammad <me@faisalahammad.com>
+   ============================================================ */
+
+/* -- GF CSS custom property overrides -- */
+html.dark-skin .gform_wrapper {
+  --gf-color-primary: #5b8af8;
+  --gf-color-secondary: #4a78e8;
+  --gf-color-in-ctrl: #2a2d32;
+  --gf-color-in-ctrl-contrast: #e0e0e0;
+  --gf-color-white: #2a2d32;
+  --gf-color-black: #e0e0e0;
+  --gf-ctrl-border-color: #444850;
+}
+
+/* -- Labels & descriptions -- */
+html.dark-skin .gform_wrapper .gfield_label,
+html.dark-skin .gform_wrapper .gfield_legend,
+html.dark-skin .gform_wrapper .gform_title,
+html.dark-skin .gform_wrapper .gform_description,
+html.dark-skin .gform_wrapper .gfield_description,
+html.dark-skin .gform_wrapper .gfield_required {
+  color: #e0e0e0 !important;
+}
+
+/* -- Text inputs, email, tel, number, url, password -- */
+html.dark-skin .gform_wrapper input[type="text"],
+html.dark-skin .gform_wrapper input[type="email"],
+html.dark-skin .gform_wrapper input[type="tel"],
+html.dark-skin .gform_wrapper input[type="number"],
+html.dark-skin .gform_wrapper input[type="url"],
+html.dark-skin .gform_wrapper input[type="password"],
+html.dark-skin .gform_wrapper input[type="search"],
+html.dark-skin .gform_wrapper textarea,
+html.dark-skin .gform_wrapper select {
+  background-color: #2a2d32 !important;
+  color: #e0e0e0 !important;
+  border-color: #444850 !important;
+}
+
+/* -- Placeholder text -- */
+html.dark-skin .gform_wrapper input::placeholder,
+html.dark-skin .gform_wrapper textarea::placeholder {
+  color: #9ca3af !important;
+  opacity: 1;
+}
+
+/* -- Select <option> elements -- */
+html.dark-skin .gform_wrapper select option {
+  background-color: #2a2d32 !important;
+  color: #e0e0e0 !important;
+}
+
+/* -- Checkbox & Radio labels -- */
+html.dark-skin .gform_wrapper .gchoice label,
+html.dark-skin .gform_wrapper .gfield_radio .gchoice label,
+html.dark-skin .gform_wrapper .gfield_checkbox .gchoice label {
+  color: #e0e0e0 !important;
+}
+
+/* -- Checkbox & Radio accent color -- */
+html.dark-skin .gform_wrapper input[type="checkbox"],
+html.dark-skin .gform_wrapper input[type="radio"] {
+  accent-color: #5b8af8;
+}
+
+/* -- Complex field sub-labels (e.g. First / Last name split) -- */
+html.dark-skin .gform_wrapper .ginput_complex label,
+html.dark-skin .gform_wrapper .ginput_complex span label {
+  color: #9ca3af !important;
+}
+
+/* -- Focus states -- */
+html.dark-skin .gform_wrapper input:focus,
+html.dark-skin .gform_wrapper textarea:focus,
+html.dark-skin .gform_wrapper select:focus {
+  border-color: #5b8af8 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(91, 138, 248, 0.25) !important;
+}
+
+/* -- Validation / error states -- */
+html.dark-skin .gform_wrapper .validation_message,
+html.dark-skin .gform_wrapper .gfield_error .gfield_label {
+  color: #ff6b6b !important;
+}
+
+html.dark-skin .gform_wrapper .gfield_error input,
+html.dark-skin .gform_wrapper .gfield_error select,
+html.dark-skin .gform_wrapper .gfield_error textarea {
+  border-color: #ff6b6b !important;
+}
+
+/* -- Character counter -- */
+html.dark-skin .gform_wrapper .charleft {
+  color: #9ca3af !important;
+}
+
+/* -- Submit button -- */
+html.dark-skin .gform_wrapper .gform_footer input[type="submit"],
+html.dark-skin .gform_wrapper .gform_page_footer input[type="submit"],
+html.dark-skin .gform_wrapper input[type="submit"],
+html.dark-skin .gform_wrapper button[type="submit"] {
+  background-color: #5b8af8 !important;
+  color: #ffffff !important;
+  border-color: #5b8af8 !important;
+}
+
+/* -- Confirmation message (post-submit) -- */
+html.dark-skin .gform_confirmation_wrapper,
+html.dark-skin .gform_confirmation_message {
+  color: #e0e0e0 !important;
+}
